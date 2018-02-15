@@ -1,0 +1,322 @@
+.ca-container{
+	position:relative;
+	margin:25px auto 20px auto;
+	width:990px;
+	height:450px;
+}
+.ca-wrapper{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.ca-item{
+	position:relative;
+	float:left;
+	width:330px;
+	height:100%;
+	text-align:center;
+}
+.ca-more{
+	position: absolute;
+	bottom: 10px;
+	right:0px;
+	padding:4px 15px;
+	font-weight:bold;
+	background: #6d470e;
+	text-align:center;
+	color: rgb(264, 207, 56);
+	font-family: "Georgia","Times New Roman",serif;
+	font-style:italic;
+	text-shadow:1px 1px 1px #897c63;
+}
+.ca-close{
+	position:absolute;
+	top:10px;
+	right:10px;
+	background:rgb(264, 207, 56) url(../images/cross.png) no-repeat center center;
+	width:27px;
+	height:27px;
+	text-indent:-9000px;
+	outline:none;
+	-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	opacity:0.7;
+}
+.ca-close:hover{
+	opacity:1.0;
+}
+.ca-item-main{
+	padding:20px;
+	position:absolute;
+	top:5px;
+	left:5px;
+	right:5px;
+	bottom:5px;
+	background:rgba(0,0,0,0.4);
+	overflow:hidden;
+	-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+}
+.ca-icon{
+	width:233px;
+	/* height:189px; */
+	height:233px;
+	position:relative;
+	margin:0 auto;
+	background:transparent url(../images/img1.png) no-repeat center center;
+	background-size:cover;
+ 	
+}
+.ca-item-2 .ca-icon{
+	background-image:url(../images/img2.png);
+	background-size:cover;
+}	
+.ca-item-3 .ca-icon{
+	background-image:url(../images/img3.png);
+	background-size:cover;
+}
+.ca-item-4 .ca-icon{
+	background-image:url(../images/img4.png);
+	background-size:cover;
+
+}
+.ca-item-5 .ca-icon{
+	background-image:url(../images/img5.png);
+	background-size:cover;
+
+}
+.ca-item-6 .ca-icon{
+	background-image:url(../images/img6.png);
+	background-size:cover;
+
+}
+.ca-item-7 .ca-icon{
+	background-image:url(../images/img7.png);
+	background-size:cover;
+
+}
+.ca-item-8 .ca-icon{
+	background-image:url(../images/img8.png);
+	background-size:cover;
+
+} 
+.ca-item-9 .ca-icon{
+	background-image:url(../images/img9.png);
+	background-size:cover;
+
+} 
+.ca-item-10 .ca-icon{
+	background-image:url(../images/img10.png);
+	background-size:cover;
+
+} 
+.ca-item-11 .ca-icon{
+	background-image:url(../images/img11.png);
+	background-size:cover;
+
+} 
+.ca-item-12 .ca-icon{
+	background-image:url(../images/img12.png);
+	background-size:cover;
+
+} 
+.ca-item-13 .ca-icon{
+	background-image:url(../images/img13.png);
+	background-size:cover;
+
+} 
+.ca-item-14 .ca-icon{
+	background-image:url(../images/img14.png);
+	background-size:cover;
+
+} 
+.ca-item-15 .ca-icon{
+	background-image:url(../images/img15.png);
+	background-size:cover;
+
+} 
+.ca-item-16 .ca-icon{
+	background-image:url(../images/img16.png);
+	background-size:cover;
+
+} 
+.ca-item-17 .ca-icon{
+	background-image:url(../images/img17.png);
+	background-size:cover;
+
+} 
+.ca-item-18 .ca-icon{
+	background-image:url(../images/img18.png);
+	background-size:cover;
+
+} 
+.ca-item h3{
+	font-family: 'Coustard', sans-serif;
+	text-transform:uppercase;
+	font-size:30px;
+	color:rgb(264, 207, 56);
+	margin-bottom:20px;
+	height:85px;
+	text-align:center;
+	/* text-shadow: 0px 1px 1px #e4ebe9; */
+}
+.ca-item h4{
+	font-family: "Georgia","Times New Roman",serif;
+	font-style:italic;
+	font-size:12px;
+	text-align:left;
+	border-left:10px solid #b0ccc6;
+	padding-left:10px;
+	line-height:24px;
+	margin:10px;
+	position:relative;
+}
+.ca-item h4 span{
+	text-indent:40px;
+	display:block;
+	color: rgb(264, 207, 56);
+}
+.ca-item h4  span.ca-quote{
+	color:#f4eee3;
+	font-size:100px;
+	position:absolute;
+	top:20px;
+	left:0px;
+	text-indent:0px;
+}
+.ca-content-wrapper{
+	background:rgba(0,0,0,0.4);
+	position:absolute;
+	width:0px; /* expands to width of the wrapper minus 1 element */
+	height:440px;
+	top:5px;
+	text-align:left;
+	z-index:10000;
+	overflow:hidden;
+}
+.ca-content{
+	width:660px;
+	overflow:hidden;
+}
+.ca-content-text{
+	font-size: 14px;
+	font-style: italic;
+	font-family: "Georgia","Times New Roman",serif;
+	margin:10px 20px;
+	padding:10px 20px;
+	line-height:24px;
+	color:rgb(264, 207, 56);
+}
+.ca-content-text p{
+	padding-bottom:5px;
+}
+.ca-content h6{
+	margin:25px 20px 0px 35px;
+	font-size:32px;
+	padding-bottom:5px;
+	color:#000;
+	font-family: 'Coustard', sans-serif;
+	color:rgb(264, 207, 56);
+	border-bottom:2px solid rgb(264, 207, 56);
+	/* text-shadow: 1px 1px 1px #99BCB4; */
+}
+.ca-content ul{
+	margin:20px 35px;
+	height:30px;
+}
+.ca-content ul li{
+	float:left;
+	margin:0px 2px;
+}
+.ca-content ul li a{
+	color:rgb(264, 207, 56);
+	background:rgb(95, 90, 14);
+	padding:3px 6px;
+	font-size:14px;
+	font-family: "Georgia","Times New Roman",serif;
+	font-style:italic;
+}
+.ca-content ul li a:hover{
+	background:rgb(51, 43, 1);
+	color:rgb(264, 207, 56);
+	text-shadow:none;
+}
+.ca-nav span{
+	width:25px;
+	height:38px;
+	background:transparent url(../images/arrows.png) no-repeat top left;
+	position:absolute;
+	top:50%;
+	margin-top:-19px;
+	left:-40px;
+	text-indent:-9000px;
+	opacity:0.7;
+	cursor:pointer;
+	z-index:100;
+}
+.ca-nav span.ca-nav-next{
+	background-position:top right;
+	left:auto;
+	right:-40px;
+}
+.ca-nav span:hover{
+	opacity:1.0;
+}
+
+
+
+.full-height {
+	-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+	height: 100%;
+  }
+  
+  .p4 {
+	padding: 4rem;
+  }
+  
+  .center {
+	text-align: center;
+  }
+  
+  .white {
+	color: white;
+  }
+  
+  .blend {
+	background-color: red;
+	background-image: url(../Images/index/ship.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-blend-mode: multiply;
+	-webkit-animation: hueshift 12s linear infinite;
+			animation: hueshift 12s linear infinite;
+  }
+  
+  @-webkit-keyframes hueshift {
+	0% {
+	  background-color: #bf4040;
+	}
+	50% {
+	  background-color: #40bfbf;
+	}
+	100% {
+	  background-color: #bf4040;
+	}
+  }
+  
+  @keyframes hueshift {
+	0% {
+	  background-color: #bf4040;
+	}
+	50% {
+	  background-color: #40bfbf;
+	}
+	100% {
+	  background-color: #bf4040;
+	}
+  }
+  

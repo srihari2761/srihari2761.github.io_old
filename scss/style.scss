@@ -1,0 +1,20 @@
+html, body { height: 100% }
+.full-height { box-sizing: border-box; height: 100% }
+.p4 { padding: 4rem }
+.center { text-align: center }
+.white { color: white }
+.blend {
+  background-color: red;
+  background-image: url(http://mrsjxn.com/assets/images/manhattan-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: multiply;
+  animation: hueshift 12s linear infinite;
+}
+
+@keyframes hueshift {
+  0% { background-color: hsl(0deg,50,50); }
+  50% { background-color: hsl(180deg,50,50); }
+  100% { background-color: hsl(360deg,50,50); }
+}
